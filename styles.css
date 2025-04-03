@@ -1,0 +1,430 @@
+* {
+    font-family: "Montserrat", sans-serif;
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+    background: #000;
+    color: white;
+}
+
+.main {
+    height: 100vh;
+    display: flex;
+    padding: 0.7rem;
+
+
+}
+
+/* --------------------------sidebar */
+.sidebar {
+    background: black;
+    width: 400px;
+    border-radius: 1rem;
+}
+
+.nav {
+    background: #121212;
+    border-radius: 1rem;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0.5rem 0.75rem;
+}
+
+.nav-option {
+    line-height: 2.5rem;
+    opacity: 0.7;
+    padding: 0.5rem 0.75rem;
+    background-color: #121212;
+}
+
+.nav-option:hover {
+    opacity: 1;
+
+}
+
+.nav-option i {
+    font-size: 1.25rem;
+    background-color: #121212;
+}
+
+.nav-option a {
+    font-size: 1.22rem;
+    margin-left: 1rem;
+    background-color: #121212;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+.library {
+    background: #121212;
+    height: 100%;
+    border-radius: 1rem;
+    margin-top: 0.8rem;
+    padding: 0.5rem 0.75rem;
+}
+
+.options {
+    display: flex;
+    background: #121212;
+    border-radius: 1rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icons {
+    background: #121212;
+    display: flex;
+    font-size: 1.25rem;
+}
+
+.icons i {
+    background: #121212;
+    opacity: 0.7;
+    margin-right: 0.7rem;
+    font-size: larger;
+}
+
+.icons i:hover {
+    opacity: 1;
+}
+
+.lib-option {
+    background: #121212;
+}
+
+.lib-option img {
+    height: 1.25rem;
+    width: 1.25rem;
+    background: #121212;
+}
+
+.lib-option a {
+    background: #121212;
+
+}
+
+.boxes {
+    background: #121212;
+}
+
+.box {
+    height: 10rem;
+    border-radius: 0.75rem;
+    background: #232323;
+    margin: 0.75rem 0rem 1.75rem 0;
+    padding: 0.75rem 1rem;
+
+}
+
+.box-p1 {
+    font-size: 1.2rem;
+    background: #232323;
+    font-weight: 500;
+    line-height: 2rem;
+    margin-top: 12px;
+
+}
+
+.box-p2 {
+    font-size: 0.9rem;
+    /* opacity: 0.75; */
+    background: #232323;
+    line-height: 2rem;
+    margin-top: 12px;
+}
+
+.badge {
+    background: #fff;
+    color: #000;
+    font-weight: 700;
+    border-radius: 100px;
+    margin-top: 1.3rem;
+    padding: 0.25 1rem;
+    border: none;
+    height: 2.5rem;
+    width: 9rem;
+}
+
+.dark-badge {
+    background-color: #000;
+    color: #fff;
+}
+
+
+/* ----------------------------main-content */
+/* nav-area */
+.main-content {
+    background: #121212;
+    flex: 1;
+    border-radius: 1rem;
+    overflow: auto;
+    margin-left: 0.6rem;
+    padding: 0 1.5rem 0 1.5rem;
+
+
+}
+
+.sticky-nav {
+    position: sticky;
+    top: 0;
+    background: #121212;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.8rem 0 1rem 0;
+    z-index: 10;
+}
+
+.sticky-nav-icons {
+    margin-left: 1.9rem;
+    background: #121212;
+
+}
+
+.sticky-nav-icons img {
+    border-radius: 20px;
+    /* Adjust the radius as needed */
+    margin: 0 10px;
+    /* Add horizontal space between images */
+    padding: 5px;
+    /* Optional: Add inner space around the image */
+    height: 1.7rem;
+}
+
+.sticky-nav-options>* {
+    margin: 0px;
+}
+
+.sticky-nav-options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #121212;
+
+}
+
+.human {
+    height: 1.8rem;
+    width: 1.8rem;
+    padding-left: 1rem;
+    border-radius: 3rem;
+    padding-top: 0.8rem;
+}
+
+.nav-item {
+    margin-right: 1.3rem;
+}
+
+@media(max-width:1000px) {
+    .hide {
+        display: none;
+    }
+}
+
+/* card-area */
+h2 {
+    background: #121212;
+    margin-top: 2.5rem;
+}
+
+.card {
+    background: #232323;
+    width: 186px;
+    height: 275px;
+    border-radius: 1.5rem;
+    padding: 0.8rem;
+    margin-top: 1.5rem;
+    margin-right: 1.9rem;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    background: #121212;
+}
+
+.card-img {
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+.card-title {
+    font-weight: 600;
+    background: #232323;
+    margin-top: 0.5rem;
+
+
+}
+
+.card-info {
+    font-size: 0.75rem;
+    opacity: 0.8;
+    background: #232323;
+    margin-top: 0.5rem;
+
+}
+
+.footer {
+    height: 250px;
+    background: #121212;
+    /* background: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line {
+    width: 100%;
+    height: 30%;
+    background: #121212;
+    border-top: 1px solid white;
+    opacity: 0.4;
+}
+
+/* ----------------------------music player */
+
+.music-player {
+
+    background: black;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 72px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+/* LEFT */
+.album {
+    width: 25%;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.p2 {
+    font-size: 12px;
+    opacity: 0.7;
+    margin-top: 5px;
+}
+
+.album div {
+    margin: 1.2rem;
+}
+
+.song-icon i {
+    margin-right: 8px;
+
+
+}
+
+/* MIDDLE */
+.player {
+    width: 50%;
+
+
+
+}
+
+.player-contols {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.7rem;
+
+
+}
+
+.player-control-icon {
+    height: 1rem;
+    margin-right: 1rem;
+    opacity: 0.7;
+
+}
+
+.player-control-icon:hover {
+    opacity: 1;
+}
+
+.player-range {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.3rem;
+
+
+
+}
+
+.progress {
+    width: 70%;
+    appearance: none;
+    cursor: pointer;
+    background-color: transparent;
+
+
+}
+
+.progress::-webkit-slider-runnable-track {
+    background: #888787;
+    height: 0.3rem;
+    border-radius: 1rem;
+
+}
+
+.progress::-webkit-slider-thumb {
+    appearance: none;
+    height: 1rem;
+    width: 1rem;
+    border-radius: 50%;
+    background: #3BE476;
+
+    margin-top: -4px;
+
+    z-index: 10;
+
+
+
+
+}
+
+.time {
+    font-size: 0.8rem;
+    margin: 0 0.5rem 0;
+    opacity: 0.8;
+}
+
+/* RIGHT  */
+.right-controls {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.right-controls input{
+    width:8rem;
+    height: 0.2rem;
+}
+
+svg {
+    opacity: 0.7;
+    height: 1rem;
+    width: 1.5rem;
+    fill: white;
+    margin-left: 5px;
+    margin-right: 7px;
+}
+svg:hover{
+   opacity: 1;
+}
